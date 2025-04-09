@@ -24,11 +24,14 @@ Se les ha pedido desarrollar una aplicación para llevar el inventario de produc
     - **Miembro 1:** Se encarga de la entrada de datos y la creación de los arrays para productos, cantidades y precios.
 
 
-reparticion de miembros 
-miembro 1: Jhoan molina gomez 192490
-miembro 2: Katherin
-miembro 3: Jesus David Perez
+Reparticion de miembros 
+Miembro 1: Jhoan Molina Gomez 192490
+Miembro 2: Katherine Cicero 192460
+Miembro 3: Jesus David Perez
 
 Miembro 1: 
-me voy a encargar de lo que vendria siendo la entrada de datos, permitiendo por consola ingresar el producto y la cantidad, mas que todo lo hare como una excepcion entre cliente y trabajador, dandole funciones diferentes a cada uno para que no se confunda entre ellos.
-tambien me ocupare de lo que vendria siendo la renovacion de inventario (que es algo un poco del tercer miembro,pero solo ayudare con la actualizacion)
+Me voy a encargar de lo que vendria siendo la entrada de datos, permitiendo por consola ingresar el producto y la cantidad, mas que todo lo hare como una excepcion entre cliente y trabajador, dandole funciones diferentes a cada uno para que no se confunda entre ellos.
+tambien me ocupare de lo que vendria siendo la renovacion de inventario (que es algo un poco del tercer miembro,pero solo ayudare con la actualizacion) <-Miembro 2: eso lo manipulé un poquito.
+
+Miembro 2:
+Me encargué de solicitar, calcular y mostrar el valor total de cada producto y el valor total de todo el inventario,luego solicitaré al usuario si desea o no agregar más productos, con esto el proceso dirá si da fin o no en la ejecucion (creo que no le dejamos nada al tercer miembro v:),hice algo no se si sea correcto y es que si el usuario le da si, y sigue agregando mas productos el valor total del inventario se va a actualizar a medida que se añadan productos nuevos cuantas veces sea necesario,(muestra el valor total de todo el inventario y de cada producto en cada actualizacion)
