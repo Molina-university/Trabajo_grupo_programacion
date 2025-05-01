@@ -6,9 +6,7 @@ public class Inventario {
         
         // Solicitar al usuario la cantidad de productos
         System.out.print("¿Cuántos productos desea ingresar? ");
-
         int numProductos = scanner.nextInt();
-
         scanner.nextLine(); 
         
         // Crear una matriz para almacenar los datos
@@ -31,7 +29,8 @@ public class Inventario {
             
             scanner.nextLine(); 
         }
-        // Mostrar el valor total de cada producto 
+
+// Mostrar el valor total de cada producto 
         // Se inicializa la variable totalProducto para almacenar el valor total de cada producto
         for (int i = 0; i < numProductos; i++) {
             int cantidad = (int) datosProductos[i][1];
@@ -40,7 +39,7 @@ public class Inventario {
 
             System.out.println("Producto: " + datosProductos[i][0] + " || Total: $" + totalProducto);
         }       
-        // Calcular el valor total del inventario solicitado
+// Calcular el valor total del inventario solicitado
         // Se inicializa la variable valorTotalInventario para almanecenar el valor total
         double valorTotalInventario = 0;
         for (int i = 0; i < numProductos; i++) {
@@ -50,7 +49,7 @@ public class Inventario {
         }
             System.out.println("El valor total del inventario es: $" + valorTotalInventario);
 
-        // Se solicita al usuario si va a agregar más productos, "si" si el usuario desea seguir inventariando y "no" si desea finalizar el programa
+// Se solicita al usuario si va a agregar más productos, "si" si el usuario desea seguir inventariando y "no" si desea finalizar el programa
 
             System.out.println("¿Desea agregar más productos? Escriba 'si' para continuar o 'no' para finalizar.");
 
@@ -79,8 +78,8 @@ public class Inventario {
             datosProductos = nuevosDatosProductos;
             numProductos++;
             
-        // Se calcula de nuevo el valor total del inventario con los nuevos datos anteriormente agregados
-        // Se inicializa la variable valorTotalInventario para almacenar el valor total
+// Se calcula de nuevo el valor total del inventario con los nuevos datos anteriormente agregados
+// Se inicializa la variable valorTotalInventario para almacenar el valor total
             valorTotalInventario = 0;
             for (int i = 0; i < numProductos; i++) {
                 int cantidad = (int) datosProductos[i][1];
@@ -89,9 +88,7 @@ public class Inventario {
             }
             
             System.out.println("El valor total del inventario con los nuevos productos es: $" + valorTotalInventario);
-
             System.out.println("¿Desea agregar más productos? Escriba 'si' para continuar o 'no' para indicar que el inventario ha sido registrado exitosamente. ");
-
             respuesta = scanner.nextLine();
         }
         
