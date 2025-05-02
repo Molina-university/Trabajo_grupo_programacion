@@ -97,7 +97,6 @@ public class Inventario {
                 // Se pide el nombre del producto cuya cantidad se desea modificar
                 System.out.println("Ingrese el nombre del producto al que desea cambiar la cantidad:");
                 String nombreProducto = scanner.nextLine();
-
                 // Se busca de nuevo el producto
                 for (int i = 0; i < numProductos; i++) {
                     if (datosProductos[i][0].toString().equalsIgnoreCase(nombreProducto)) {
@@ -107,7 +106,7 @@ public class Inventario {
                         datosProductos[i][1] = scanner.nextInt();
                         scanner.nextLine(); 
                         break; 
-                    }
+                    } 
                 }
             // Se muestra de nuevo el inventario
                 for (int i = 0; i < numProductos; i++) {

@@ -25,9 +25,9 @@ Se les ha pedido desarrollar una aplicación para llevar el inventario de produc
 
 
 Reparticion de miembros 
-Miembro 1: Jhoan Molina Gomez 192490
-Miembro 2: Katherine Cicero 192460
-Miembro 3: Jesus David Perez
+Miembro 1: Jhoan Molina Gomez 192490.
+Miembro 2: Katherine Cicero 192460.
+Miembro 3: Jesus David Perez.
 
 Miembro 1: 
 Me voy a encargar de lo que vendria siendo la entrada de datos, permitiendo por consola ingresar el producto y la cantidad, mas que todo lo hare como una excepcion entre cliente y trabajador, dandole funciones diferentes a cada uno para que no se confunda entre ellos.
